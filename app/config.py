@@ -4,10 +4,11 @@ from typing import Optional
 
 class Settings(BaseSettings):
     #db_related
-    DB_USER: str="postgres"
-    DB_PASSWORD:str
-    DB_HOST:str ="localhost"
-    DB_PORT:int=5432
+    # DB_USER: str="postgres"
+    # DB_PASSWORD:str
+    # DB_HOST:str ="localhost"
+    # DB_PORT:int=5432
+    DATABASE_URL:str
     DB_NAME:str
     
     #JWT
